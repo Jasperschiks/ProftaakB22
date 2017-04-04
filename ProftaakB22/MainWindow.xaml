@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProftaakB22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProftaakB22"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="544.597">
+    <Grid x:Name="___No_Name_" Margin="0,0,3,-0.333">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="468*"/>
+            <ColumnDefinition Width="67*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Btn_Inkoop" Content="Inkopen" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="154" Height="82" Click="Btn_Inkoop_Click"/>
+        <Button x:Name="Btn_Voorraad" Content="Voorraad" HorizontalAlignment="Left" Margin="182,10,0,0" VerticalAlignment="Top" Width="154" Height="82" Click="Btn_Voorraad_Click"/>
+        <Button x:Name="Btn_Productie" Content="Productie" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top" Width="154" Height="82" Click="Btn_Inkoop_Click"/>
+
+    </Grid>
+</Window>
